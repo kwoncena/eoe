@@ -3,19 +3,179 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI in Education Timeline</title>
+  <title>Path of Knowledge - Interactive Vertical Timeline</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="timeline-container">
-    <h1>Interactive Timeline: AI in Education</h1>
-    <svg id="timeline"></svg>
-    <div id="info-box" class="hidden">
-      <h2 id="info-title"></h2>
-      <p id="info-content"></p>
-    </div>
+  <header class="logo-container">
+    <img src="EOE.png" alt="EOE Logo" class="logo">
+  </header>
+  <div class="timeline">
+    <ul>
+      <li>
+        <div class="timeline-point" data-target="card-1"></div>
+        <div class="card" id="card-1">
+          <h2>Prehistoric Times</h2>
+          <h3>Oral Traditions and Survival Skills</h3>
+          <p>Education was informal and oral, focusing on storytelling, survival skills, and cultural traditions passed down through elders and community leaders.</p>
+          <img src="prehist.png" alt="Oral Traditions">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-2"></div>
+        <div class="card" id="card-2">
+          <h2>3000 BCE</h2>
+          <h3>First Written Tools for Education</h3>
+          <p>Ancient Sumerians invented cuneiform, enabling the recording of knowledge for the first time. Early scribes were trained in schools to preserve this knowledge.</p>
+          <img src="3000bce.png" alt="First Written Tools">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-3"></div>
+        <div class="card" id="card-3">
+          <h2>500 BCE</h2>
+          <h3>Confucian Academies in China</h3>
+          <p>Confucian teachings shaped education in China, emphasizing moral virtue, social harmony, and governance, taught through classics like 'The Analects.'</p>
+          <img src="500bce.png" alt="Confucian Academies">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-4"></div>
+        <div class="card" id="card-4">
+          <h2>1100 CE</h2>
+          <h3>Medieval Universities</h3>
+          <p>Institutions like Bologna and Oxford became hubs for theology, law, and philosophy, setting the stage for modern higher education.</p>
+          <img src="1100ce.png" alt="Medieval Universities">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-5"></div>
+        <div class="card" id="card-5">
+          <h2>1300 CE</h2>
+          <h3>Aztec Calmecac Schools</h3>
+          <p>The Aztecs established schools like Calmecac to educate noble children in leadership, astronomy, and philosophy, ensuring their readiness for governance.</p>
+          <img src="1300ce.png" alt="Aztec Calmecac Schools">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-6"></div>
+        <div class="card" id="card-6">
+          <h2>1450 CE</h2>
+          <h3>Invention of the Printing Press</h3>
+          <p>Gutenberg’s printing press revolutionized education by enabling the mass production of books, making knowledge more accessible to the public.</p>
+          <img src="1450ce.png" alt="Printing Press">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-7"></div>
+        <div class="card" id="card-7">
+          <h2>1600 CE</h2>
+          <h3>Jesuit Missionary Schools</h3>
+          <p>Jesuit missionaries founded schools across Asia, Africa, and the Americas, introducing Western education systems to diverse regions.</p>
+          <img src="1600ce.png" alt="Jesuit Schools">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-8"></div>
+        <div class="card" id="card-8">
+          <h2>1770 CE</h2>
+          <h3>Rousseau and the Child-Centered Approach</h3>
+          <p>Jean-Jacques Rousseau advocated for education that emphasized the natural development of children rather than rote memorization.</p>
+          <img src="1770ce.png" alt="Child-Centered Education">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-9"></div>
+        <div class="card" id="card-9">
+          <h2>1850 CE</h2>
+          <h3>Public Schools in Japan (Gakusei)</h3>
+          <p>Japan adopted the Gakusei system during the Meiji Restoration, introducing compulsory education and blending Western and traditional teaching methods.</p>
+          <img src="1850ce.png" alt="Public Schools in Japan">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-10"></div>
+        <div class="card" id="card-10">
+          <h2>1880 CE</h2>
+          <h3>Compulsory Education in the U.S. and Europe</h3>
+          <p>Laws mandating school attendance emerged, emphasizing literacy and numeracy to prepare students for industrial economies.</p>
+          <img src="1880ce.png" alt="Compulsory Education">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-11"></div>
+        <div class="card" id="card-11">
+          <h2>1920 CE</h2>
+          <h3>Montessori Method Gains Popularity</h3>
+          <p>Maria Montessori’s education philosophy emphasized child-led learning, independence, and hands-on experiences, influencing global education systems.</p>
+          <img src="1920ce.png" alt="Montessori Method">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-12"></div>
+        <div class="card" id="card-12">
+          <h2>1960 CE</h2>
+          <h3>Educational Television and Sesame Street</h3>
+          <p>Television programs like Sesame Street brought engaging educational content to homes, benefiting underserved communities.</p>
+          <img src="1960ce.png" alt="Sesame Street">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-13"></div>
+        <div class="card" id="card-13">
+          <h2>1980 CE</h2>
+          <h3>Computers Enter the Classroom</h3>
+          <p>Personal computers and software like LOGO became tools for interactive learning, sparking the digital transformation of education.</p>
+          <img src="1980ce.png" alt="Computers in Education">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-14"></div>
+        <div class="card" id="card-14">
+          <h2>2023 CE</h2>
+          <h3>AI in Education</h3>
+          <p>AI tools such as ChatGPT and personalized platforms revolutionized learning by adapting to individual needs and assisting educators.</p>
+          <img src="2023ce.png" alt="AI in Education">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-15"></div>
+        <div class="card" id="card-15">
+          <h2>2030 CE</h2>
+          <h3>Global AI Integration in Schools</h3>
+          <p>AI dashboards and tools support educators worldwide, providing real-time insights into student performance and engagement.</p>
+          <img src="2030ce.png" alt="Global AI Integration">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-16"></div>
+        <div class="card" id="card-16">
+          <h2>2050 CE</h2>
+          <h3>Immersive Virtual Reality Classrooms</h3>
+          <p>VR and AR technologies create fully immersive learning environments, blending hands-on experiences with theoretical education.</p>
+          <img src="2050ce.png" alt="VR Classrooms">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-17"></div>
+        <div class="card" id="card-17">
+          <h2>2075 CE</h2>
+          <h3>Lifelong AI Learning Companions</h3>
+          <p>AI systems evolve to support learning throughout life, offering personalized, adaptive educational experiences for all ages.</p>
+          <img src="2075ce.png" alt="Lifelong Learning AI">
+        </div>
+      </li>
+      <li>
+        <div class="timeline-point" data-target="card-18"></div>
+        <div class="card" id="card-18">
+          <h2>2100 CE</h2>
+          <h3>Intergalactic Education Systems</h3>
+          <p>Space colonies establish education systems that leverage AI to teach across planets, promoting universal knowledge sharing.</p>
+          <img src="2100ce.png" alt="Intergalactic Education">
+        </div>
+      </li>
+    </ul>
   </div>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
